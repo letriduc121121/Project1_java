@@ -118,7 +118,7 @@ public class BuildingAPI {
 	}
 	private void validateData1(BuildingRequestDTO building) {
 		if (building.getName() == null || building.getName().equals("") || building.getNumberOfBasement() == null) {
-			throw new InvalidBuildingException("Name and numberOfBasement Buidling not be empty");
+			throw new InvalidBuildingException("Name and dsds Buidling not be empty");
 		}
 	}
 
